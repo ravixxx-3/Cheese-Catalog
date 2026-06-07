@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+div label[for="Welcome"] {
+    display: inline-block;
+    color: #b3b3b3;
+    background-color: #3a3a3a;
+    width: 100%;
+    height: 50%;
+
+    border-radius: 10px;
+    
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 200px;
+    font-family: 'Montserrat', sans-serif;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(45, 45, 45); 
+}
+
+.line{
+    height: 1px;
+    width: 100%;
+
+    background: linear-gradient(
+        to right,
+        transparent,
+        rgba(255, 255, 255, 0.2),
+        transparent
+    );
+}
+
+.linec{
+    height: 1px;
+    width: 100%;
+
+    background: linear-gradient(
+        to right,
+        transparent,
+        rgba(255, 255, 255, 0.2),
+        transparent
+    );
+}
+
+.Card{
+    width: 350px;
+    height: 700px;
+    
+    background-color: #2d2d2d;
+    border: 1px solid #434343;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px #1c1c1c;
+
+    margin: 80px;
+    vertical-align: top;
+
+    transition: 0.4s;
+}
+
+.Card:hover {
+    transform: scale(1.05)
+}
+
+img {
+    width: 300px;
+    height: 300px;
+
+    margin-top: 20px;
+    margin-left: 25px;
+
+    box-shadow: 0 3px 15px #6c6b6b;
+    border-radius: 15px;
+}
+
+.Cheese-Container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 20px;
+    justify-content: space-around;
+}
+
+h1{
+    color: #b3b3b3;
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: bolder;
+    text-align: center;
+}
+
+.infoo{
+    color: #b3b3b3;
+
+    font-size: 20px;
+    line-height: 1.5;
+    
+    text-align: left;
+    margin: 10px 15px;
+    margin-top: 10px;
+    
+}
+
+.end {
+    display: inline-block;
+    background-color: #3a3a3a;
+    color: #b3b3b3;
+    
+    width: calc(100% + 16px);
+    height: 200px;
+
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    margin-top: 25px;
+    
+    border-color: 1px solid #6c6b6b;
+
+    box-shadow: 0 4px 15px rgba(153, 151, 151, 1);
+ 
+    font-size: 30px;
+    text-align: left;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.by {
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+
+.sm {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.infol {
+    color: rgb(144, 144, 144);
+}
+.infol:hover {
+    color: rgb(92, 92, 92);
+}
+
+.sm1 {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    transition: 0.2s;
+    margin-left: 100px;
+}
+.sm1:hover {
+    transform: scale(1.1);
+}
+.sm:hover {
+    transform: scale(1.1);
+}
